@@ -2,12 +2,6 @@ from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from instagram.tools.search import SearchTools
 
-# Uncomment the following line to use an example of a custom tool
-# from instagram.tools.custom_tool import MyCustomTool
-
-# Check our tools documentations for more information on how to use them
-# from crewai_tools import SerperDevTool
-
 
 @CrewBase
 class InstagramCrew:
